@@ -6,6 +6,7 @@ Standart usage is with auto mode on (which means you just provide the actual hos
 
 usage:
 root@HLKali:~/nslookup# python3 nsc.py -h
+<br>
 [Status] parse input parameters
 usage: nsc.py [-h] -i -r [--auto]
 
@@ -21,6 +22,7 @@ optional arguments:
 example (auto mode on):
 
 root@HLKali:~/nslookup# python3 nsc.py -i aa0141e6e79c -r 'chroot'
+<br>
 <code>
 [Status] parse input parameters
 [+] labid: aa0141e6e79c
