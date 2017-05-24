@@ -10,15 +10,15 @@ root@HLKali:~/nslookup# python3 nsc.py -h
 [Status] parse input parameters
 usage: nsc.py [-h] -i -r [--auto]
 
-optional arguments:
-  -h, --help         show this help message and exit
-  -i, --labId    hacking-lab id - This refers to the server id from the
-                     created docker of the challenge.
-  -r, --request  actual request portion e.g. <req>X<md5hash>
-  --auto             turn auto md5 hash calculation on/off. send request
-                     manually.
+optional arguments: <br>
+  -h, --help         show this help message and exit<br>
+  -i, --labId    hacking-lab id - This refers to the server id from the<br>
+                     created docker of the challenge.<br>
+  -r, --request  actual request portion e.g. <req>X<md5hash><br>
+  --auto             turn auto md5 hash calculation on/off. send request<br>
+                     manually.<br>
 
-
+<br><br>
 example (auto mode on):
 
 root@HLKali:~/nslookup# python3 nsc.py -i aa0141e6e79c -r 'chroot'
