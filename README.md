@@ -24,7 +24,7 @@ optional arguments: <br>
 <p>
 <code>root@HLKali:~/nslookup# python3 nsc.py -i aa0141e6e79c -r 'chroot'</code>
 <br>
-<p><code>
+<p>
 [Status] parse input parameters<br>
 [+] labid: aa0141e6e79c<br>
 [+] request: chroot<br>
@@ -43,20 +43,19 @@ optional arguments: <br>
 	[+] Connection : Keep-Alive<br>
 	[+] Content-Type : text/html; charset=UTF-8<br>
 [+] ------------------------------------------<br>
-</code>
-<code>
+
 <verbatim>
 b'\n<!DOCTYPE html>\n<html lang="en">\n\t<head>\n\t\t<meta charset="utf-8" />\n\t\t<meta name="viewport" content="width=device-width, initial-scale=1.0">\n    \t<title>Online NS Lookup</title>\n    \t<link rel="stylesheet" href="style.css" />\n\t</head>\n\n\t<body>\n\n\t\t<div class="middle">\n\t\t\t<h1>Welcome to Online NS Lookup</h1>\n\n\t\t\t<p>Please choose a domain</p>\n\n\t\t\t    <form method="post">\n\t\t\t\t  <select name="host">\n\t\t\t\t  <option value=\'google.comX1d5920f4b44b27a802bd77c4f0536f5a\'>google.com</option><option value=\'yahoo.comX50cd1a9a183758039b0841aa738c3f0b\'>yahoo.com</option><option value=\'ch.chX1207e86643deca2eb8fc69dc5e8aeb2b\'>ch.ch</option>\t\t\t\t   </select>\n\t\t\t      <input type="submit">\n\t\t\t    </form>\n\n\t\t\t\t\t\t\t<p class="result">Result</p>\n\t\t\t\t<p>\n        nicetry.com        </p>\n\t\t\t\n\t\t</div>\n\n\n    <footer>\n      Thanks to: wgEt, tAr, .NETst@t and chR00t!\n    </footer>\n\t</body>\n</html>\n'<br>
 [+] ------------------------------------------<br>
 [fail] nice try!<br>
-</verbatim></code>
+</verbatim>
 <br><hr><br>
 <h4>example (auto mode off)</hr>
 <br><br>
 <code>
 root@HLKali:~/nslookup# python3 nsc.py -i aa0141e6e79c -r 'google.net' --auto
 </code>
-<code><verbatim>
+<verbatim>
 [Status] parse input parameters<br>
 [+] labid: aa0141e6e79c<br>
 [+] request: google.net<br>
@@ -77,4 +76,4 @@ root@HLKali:~/nslookup# python3 nsc.py -i aa0141e6e79c -r 'google.net' --auto
 b''<br>
 [+] ------------------------------------------<br>
 [fail] Don't manipulate my website!<br>
-</verbatim></code>
+</verbatim>
