@@ -6,6 +6,7 @@ Standart usage is with auto mode on (which means you just provide the actual hos
 <p>
 usage: <code>root@HLKali:~/nslookup# python3 nsc.py -h</code>
 <br>
+
 [Status] parse input parameters
 usage: nsc.py [-h] -i -r [--auto]
 
@@ -23,7 +24,7 @@ optional arguments: <br>
 <p>
 <code>root@HLKali:~/nslookup# python3 nsc.py -i aa0141e6e79c -r 'chroot'</code>
 <br>
-<p>
+<p><code>
 [Status] parse input parameters<br>
 [+] labid: aa0141e6e79c<br>
 [+] request: chroot<br>
@@ -56,24 +57,24 @@ b'\n<!DOCTYPE html>\n<html lang="en">\n\t<head>\n\t\t<meta charset="utf-8" />\n\
 root@HLKali:~/nslookup# python3 nsc.py -i aa0141e6e79c -r 'google.net' --auto
 </code>
 <code><verbatim>
-[Status] parse input parameters
-[+] labid: aa0141e6e79c
-[+] request: google.net
-[+] md5hash: 21a352716c73a45f962bb49474057ca0
-[+] target: aa0141e6e79c.i.hacking-lab.com
-[STATUS] Connect to target 'aa0141e6e79c.i.hacking-lab.com'
-[+] host=google.net
-[CONNECTION] 302 - Found
-[+] RESPONSE HEADERS
-	[+] Date : Sat, 20 May 2017 19:11:32 GMT
-	[+] Server : Apache/2.4.18 (Ubuntu)
-	[+] Location : error.html
-	[+] Content-Length : 0
-	[+] Keep-Alive : timeout=5, max=100
-	[+] Connection : Keep-Alive
-	[+] Content-Type : text/html; charset=UTF-8
-[+] ------------------------------------------
-b''
-[+] ------------------------------------------
-[fail] Don't manipulate my website!
+[Status] parse input parameters<br>
+[+] labid: aa0141e6e79c<br>
+[+] request: google.net<br>
+[+] md5hash: 21a352716c73a45f962bb49474057ca0<br>
+[+] target: aa0141e6e79c.i.hacking-lab.com<br>
+[STATUS] Connect to target 'aa0141e6e79c.i.hacking-lab.com'<br>
+[+] host=google.net<br>
+[CONNECTION] 302 - Found<br>
+[+] RESPONSE HEADERS<br>
+	[+] Date : Sat, 20 May 2017 19:11:32 GMT<br>
+	[+] Server : Apache/2.4.18 (Ubuntu)<br>
+	[+] Location : error.html<br>
+	[+] Content-Length : 0<br>
+	[+] Keep-Alive : timeout=5, max=100<br>
+	[+] Connection : Keep-Alive<br>
+	[+] Content-Type : text/html; charset=UTF-8<br>
+[+] ------------------------------------------<br>
+b''<br>
+[+] ------------------------------------------<br>
+[fail] Don't manipulate my website!<br>
 </verbatim></code>
