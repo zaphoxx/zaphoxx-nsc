@@ -62,6 +62,7 @@ def connectTarget():
 	return connection
 
 '''
+SAMPLE HTTP REQUEST:
 Host: 424d99fe5baa.i.hacking-lab.com
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
@@ -119,9 +120,7 @@ def sendRequest(connection):
 	print("[+] ------------------------------------------")
 	if("nicetry.com" in str(dataOut)):
 		status="[fail] nice try!"
-
 	print(status)
-
 	connection.close()
 
 if __name__=="__main__":
